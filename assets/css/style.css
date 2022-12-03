@@ -170,6 +170,10 @@ html {
     .about div.main h4{
         margin: 0 22%;
     }
+    .about div.main{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
 }
 /* スマホ用スタイル */
 /* iPhoneSE二世代目より下のサイズを想定したレイアウトです。 */
@@ -188,6 +192,10 @@ html {
     }
     .about div[column]>div:last-child{
         margin-top: 30px;
+    }
+    .about div.main{
+        margin-left: 4%;
+        margin-right: 4%;
     }
 }
 
