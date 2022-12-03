@@ -58,3 +58,6 @@ tr:hover:not(.main) {
         font-size: 15px;
     }
 }
+.time p {
+    position: absolute;
+}
