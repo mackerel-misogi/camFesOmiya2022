@@ -57,7 +57,8 @@ tr:hover:not(.main) {
     .oned_table td {
         font-size: 15px;
     }
-}
-.time p {
+    .time p {
     position: absolute;
+}
+
 }
