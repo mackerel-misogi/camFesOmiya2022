@@ -60,6 +60,7 @@ tr:hover:not(.main) {
     .oned_table th,
     .oned_table td {
     display:block;
+    padding:0px;
 }
 
 }
