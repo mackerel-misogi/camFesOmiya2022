@@ -57,6 +57,7 @@ tr:hover:not(.main) {
     .oned_table td {
         font-size: 15px;
     }
+    .oned_table th,
     .oned_table td {
     display:block;
 }
