@@ -135,17 +135,21 @@ div[column] div.main{
 
 /* ページトップに戻る */
 
-.page_top {
-    position: fixed;
+.page_top_content {
+    position: absolute;
     width: 80px;
     height: 80px;
-    background-color: #fffffd;
-    border: solid 10px #5f7037;
-    border-radius: 25%;
-    right: 10px;
-    bottom: 20px;
-    box-shadow: 5px 5px 5px rgb(0 0 0 / 60%);
-    z-index: 5;
+    clip-path: polygon(50% 5%,70% 30%,70% 30%,55% 30%,55% 65%,45% 65%,45% 30%,30% 30%,30% 30%);
+    background-color: black;
+}
+.page_top span::after {
+    position: absolute;
+    content: "page top";
+    text-align: center;
+    width: 80px;
+    z-index: 15;
+    bottom: 5px;
+    color: black;
 }
 
 /* スムーススクロール */
